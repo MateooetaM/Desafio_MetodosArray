@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.cuerpo{
+    padding:1rem;
+    background: lightgray;
+}
+h1{
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#formulario p{
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+input{
+    height: 2rem;
+    width: 25vw;
+    border-radius: 5px;
+}
+#formulario button{
+    background-color: #146614;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contadores{
+    display: flex;
+    margin-top: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contadores .dato-1 {
+    margin-right: 10vw;
+}
+.contadores .dato-1 p{
+    margin-bottom: 0.5rem;
+}
+.contadores .dato-1 span{
+    font-weight: bold;
+}
+.contadores .dato-2{
+    display: flex;
+}
+.contadores .dato-2 p{
+    margin-right: 3rem;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.contadores .dato-2 ul{
+    list-style-type: none;
+}
+.contadores .dato-2 .orden-tarea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contadores .dato-2 .orden-datos{
+    display: flex;
+}
+/* .contadores .dato-2 .orden-datos .item-tarea{
+    margin-right: ;
+} */
+.contadores .dato-2 .orden-datos .item-id{
+    margin-right: 26%;
+}
+.completa{
+    text-decoration: line-through;
+}
+.checkbox{
+    width: 1rem;
+    height: 1rem;
+    margin-left: 10vw;
+}
+.eliminar{
+    width: 1rem;
+    height: 1rem;
+    background: #aa0303;
+    margin-left: 1rem;
+}
